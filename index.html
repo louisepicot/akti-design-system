@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+
+    <script src="https://use.fontawesome.com/f959c5dc7f.js"></script>
+
+
+    <title> Freel Design system</title>
+</head>
+
+<body>
+    <div class="grid">
+
+
+        <!-- BUTTONS -->
+
+        <div class="buttons-box">
+            <h2>Buttons</h2>
+            <div>
+                <button type="button" class="btn-grey">
+                    <p>Default</p>
+                </button>
+                <button type="button" class="btn-blue">
+                    <p>Primary</p>
+                </button>
+            </div>
+            <div>
+                <button type="button" class="btn-danger-top">
+                    <p>Secondary</p>
+                </button>
+                <div class="dropdown">
+                    <button type="button" class="btn-blue dropdown-toggle " data-toggle="dropdown">Payer</button>
+                    <div class="dropdown-menu btn-datepicker">
+                        <div class="flexbox-space-between">
+                            <!-- react-text: 504 -->
+                            <p>Payée le</p>
+                            <!-- /react-text -->
+                            <!-- react-text: 505 -->:
+                            <!-- /react-text -->
+                            <div class="DayPickerInput">
+                                <input placeholder="15/03/2018" value="">
+                            </div>
+
+                            <!-- DATEPICKER -->
+                            <div class="DayPickerInput-OverlayWrapper">
+                                <div class="DayPickerInput-Overlay">
+                                    <div class="DayPicker" lang="en">
+                                        <div class="DayPicker-wrapper" tabindex="-1">
+                                            <div class="DayPicker-NavBar">
+                                                <span tabindex="0" role="button" aria-label="Previous Month" class="DayPicker-NavButton DayPicker-NavButton--prev"></span>
+                                                <span tabindex="0" role="button" aria-label="Next Month" class="DayPicker-NavButton DayPicker-NavButton--next"></span>
+                                            </div>
+                                            <div class="DayPicker-Months">
+                                                <div class="DayPicker-Month" role="grid">
+                                                    <div class="DayPicker-Caption" role="heading">
+                                                        <div>March 2018</div>
+                                                    </div>
+                                                    <div class="DayPicker-Weekdays" role="rowgroup">
+                                                        <div class="DayPicker-WeekdaysRow" role="row">
+                                                            <div class="DayPicker-Weekday" role="columnheader">
+                                                                <abbr title="Sunday">Su</abbr>
+                                                            </div>
+                                                            <div class="DayPicker-Weekday" role="columnheader">
+                                                                <abbr title="Monday">Mo</abbr>
+                                                            </div>
+                                                            <div class="DayPicker-Weekday" role="columnheader">
+                                                                <abbr title="Tuesday">Tu</abbr>
+                                                            </div>
+                                                            <div class="DayPicker-Weekday" role="columnheader">
+                                                                <abbr title="Wednesday">We</abbr>
+                                                            </div>
+                                                            <div class="DayPicker-Weekday" role="columnheader">
+                                                                <abbr title="Thursday">Th</abbr>
+                                                            </div>
+                                                            <div class="DayPicker-Weekday" role="columnheader">
+                                                                <abbr title="Friday">Fr</abbr>
+                                                            </div>
+                                                            <div class="DayPicker-Weekday" role="columnheader">
+                                                                <abbr title="Saturday">Sa</abbr>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="DayPicker-Body" role="rowgroup">
+                                                        <div class="DayPicker-Week" role="row">
+                                                            <div aria-disabled="true" class="DayPicker-Day DayPicker-Day--outside"></div>
+                                                            <div aria-disabled="true" class="DayPicker-Day DayPicker-Day--outside"></div>
+                                                            <div aria-disabled="true" class="DayPicker-Day DayPicker-Day--outside"></div>
+                                                            <div aria-disabled="true" class="DayPicker-Day DayPicker-Day--outside"></div>
+                                                            <div class="DayPicker-Day" tabindex="0" role="gridcell" aria-label="Thu Mar 01 2018" aria-disabled="false" aria-selected="false">1</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Fri Mar 02 2018" aria-disabled="false" aria-selected="false">2</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Sat Mar 03 2018" aria-disabled="false" aria-selected="false">3</div>
+                                                        </div>
+                                                        <div class="DayPicker-Week" role="row">
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Sun Mar 04 2018" aria-disabled="false" aria-selected="false">4</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Mon Mar 05 2018" aria-disabled="false" aria-selected="false">5</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Tue Mar 06 2018" aria-disabled="false" aria-selected="false">6</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Wed Mar 07 2018" aria-disabled="false" aria-selected="false">7</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Thu Mar 08 2018" aria-disabled="false" aria-selected="false">8</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Fri Mar 09 2018" aria-disabled="false" aria-selected="false">9</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Sat Mar 10 2018" aria-disabled="false" aria-selected="false">10</div>
+                                                        </div>
+                                                        <div class="DayPicker-Week" role="row">
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Sun Mar 11 2018" aria-disabled="false" aria-selected="false">11</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Mon Mar 12 2018" aria-disabled="false" aria-selected="false">12</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Tue Mar 13 2018" aria-disabled="false" aria-selected="false">13</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Wed Mar 14 2018" aria-disabled="false" aria-selected="false">14</div>
+                                                            <div class="DayPicker-Day DayPicker-Day--today" tabindex="-1" role="gridcell" aria-label="Thu Mar 15 2018" aria-disabled="false"
+                                                                aria-selected="false">15</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Fri Mar 16 2018" aria-disabled="false" aria-selected="false">16</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Sat Mar 17 2018" aria-disabled="false" aria-selected="false">17</div>
+                                                        </div>
+                                                        <div class="DayPicker-Week" role="row">
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Sun Mar 18 2018" aria-disabled="false" aria-selected="false">18</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Mon Mar 19 2018" aria-disabled="false" aria-selected="false">19</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Tue Mar 20 2018" aria-disabled="false" aria-selected="false">20</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Wed Mar 21 2018" aria-disabled="false" aria-selected="false">21</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Thu Mar 22 2018" aria-disabled="false" aria-selected="false">22</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Fri Mar 23 2018" aria-disabled="false" aria-selected="false">23</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Sat Mar 24 2018" aria-disabled="false" aria-selected="false">24</div>
+                                                        </div>
+                                                        <div class="DayPicker-Week" role="row">
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Sun Mar 25 2018" aria-disabled="false" aria-selected="false">25</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Mon Mar 26 2018" aria-disabled="false" aria-selected="false">26</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Tue Mar 27 2018" aria-disabled="false" aria-selected="false">27</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Wed Mar 28 2018" aria-disabled="false" aria-selected="false">28</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Thu Mar 29 2018" aria-disabled="false" aria-selected="false">29</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Fri Mar 30 2018" aria-disabled="false" aria-selected="false">30</div>
+                                                            <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Sat Mar 31 2018" aria-disabled="false" aria-selected="false">31</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- DATEPICKER END-->
+                            <button type="button" class="btn-light">OK</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button disabled="" class="btn-light">
+                    <p>disabled</p>
+                </button>
+                <button class="btn-light">
+                    <p>btn-light</p>
+                </button>
+
+            </div>
+
+
+            <div>
+                <button type="button" class="btn-checkbox">
+                    <input type="radio" value="1">
+                    <div class="fake-checkbox"> </div>
+                    <p>Checkbox</p>
+                </button>
+                <button type="button" class="btn-checkbox">
+                    <input type="radio" value="1">
+                    <div class="fake-checkbox"> </div>
+                    <p>Checkbox</p>
+                </button>
+
+            </div>
+            <div>
+                <button class="btn-trash">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                </button>
+                <p class="onoff">
+                    <input type="checkbox" id="checkboxCopie" value="true">
+                    <label for="checkboxCopie"></label>
+                </p>
+
+                <div class="dropdown">
+                    <img src="https://kitt.lewagon.com/placeholder/users/louisepicot" class="avatar dropdown-toggle" id="navbar-menu" data-toggle="dropdown"
+                        alt="avatar">
+                    <ul class="dropdown-menu dropdown-menu-right navbar-dropdown-menu">
+                        <li>
+                            <a href="/param-account">Compte</a>
+                        </li>
+                        <li>
+                            <a href="/param-invoice">Facturation</a>
+                        </li>
+                        <li>
+                            <a>Déconnexion</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+        <!-- INPUTS -->
+
+
+        <div class="inputs-box">
+            <h2>Inputs</h2>
+            <div>
+                <div>
+                    <label>
+                        input
+                    </label>
+                    <i class="stars">*</i>
+                    <input type="email" id="inputEmail" class="form-control" placeholder="Email" required="" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=&quot;); cursor: auto;"
+                        data-com.agilebits.onepassword.user-edited="yes">
+                </div>
+                <div>
+                    <label>
+                        select input
+                    </label>
+                    <i class="stars">*</i>
+                    <select class="form-control">
+                        <option value="26">Belgium</option>
+                        <option value="79">France</option>
+                        <option value="159">Netherlands</option>
+                    </select>
+                </div>
+
+            </div>
+            <div>
+                <div>
+                    <label>
+                        input info
+                    </label>
+                    <div class="flexbox green-border ">
+                        <input type="email" id="inputEmail" name="email" class="form-control " value="d@gmail.com" placeholder="mon-nom@monentreprise.com"
+                            data-com.agilebits.onepassword.user-edited="yes">
+                        <div class="display">
+                            <i class="fa fa-check-circle"></i>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <label>
+                        input info
+                    </label>
+                    <div class="flexbox-column">
+                        <div class="flexbox red-border  ">
+                            <input type="email" id="inputEmail" name="email" class="form-control " value="d@gmail.com" placeholder="mon-nom@monentreprise.com"
+                                data-com.agilebits.onepassword.user-edited="yes">
+                            <div class="display">
+                                <i class="fa fa-times"></i>
+                            </div>
+                        </div>
+                        <p class="text-error">
+                            P Lorem ipsum dolor sit amet
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label>
+                        input info
+                    </label>
+                    <i class="stars">*</i>
+                    <div class="flexbox-column">
+                        <input type="email" id="inputEmail" class="form-control" placeholder="Email" required="" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=&quot;); cursor: auto;"
+                            data-com.agilebits.onepassword.user-edited="yes">
+                        <p class="text-info">
+                            P Lorem ipsum dolor sit amet
+                        </p>
+                    </div>
+                </div>
+
+                <!-- SEARCH_BAR input-->
+
+                <div class="search-bar-box">
+                    <label>
+                        input info
+                    </label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" value="" name="x" placeholder="placeholder" id="search_param" data-toggle="popover"
+                            data-placement="top">
+                        <span class="input-group-btn">
+                            <button class="filter-btn" type="button">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+        <!-- TEXTS -->
+
+        <div class="text-box">
+            <h2>Texts</h2>
+            <div>
+                <h1>
+                    H1 Lorem ipsum dolor sit amet
+                </h1>
+                <h2>
+                    H2 Lorem ipsum dolor sit amet
+                </h2>
+                <h3>
+                    H3 Lorem ipsum dolor sit amet
+                </h3>
+                <h4 class="text-uppercase">
+                    H4 Uppercase Lorem ipsum dolor sit amet
+                </h4>
+
+                <p>
+                    P Lorem ipsum dolor sit amet
+                </p>
+                <label>
+                    label Lorem ipsum dolor sit ametƒ
+                </label>
+            </div>
+
+
+        </div>
+
+
+        <!-- COLORS_BOX -->
+
+        <div class="colors-box">
+            <h2>Colors</h2>
+
+            <div class="flexbox-column">
+                <div class="deep-grey"></div>
+                <p> #91A0B2</p>
+                <!-- <div class="light-grey"></div>
+                        <p> #C6C6C6</p> -->
+                <div class="very-light-grey"></div>
+                <p> #D4D7DB</p>
+                <div class="very-very-light-grey"></div>
+                <p> #D4D7DB</p>
+            </div>
+            <div class="flexbox-column">
+                <div class="deep-blue"></div>
+                <p> #03004F</p>
+                <!-- <div class="light-blue"></div>
+                                        <p> #E1EAF7</p> -->
+            </div>
+            <div class="flexbox-column">
+                <div class="deep-orange"></div>
+                <p> #FFAC19</p>
+                <!-- <div class="light-orange"></div>
+                                        <p> #FFF7EA</p> -->
+            </div>
+
+        </div>
+
+
+
+        <!-- NAVBARS -->
+
+        <div class="navbar-box">
+
+            <h2>Navbars</h2>
+            <div class="flexbox-space-between bbgrey">
+                <div class="flexbox bborangefix">
+                    <p>
+                        <a>Par Default</a>
+                    </p>
+                </div>
+                <div class=" flexbox">
+                    <p>
+                        <a>Message Email</a>
+                    </p>
+                </div>
+            </div>
+
+
+
+
+            <div class="navbar-blue flexbox-space-between">
+                <a href="/" class="brand">
+                    <img src="./menu-sh.png" alt="logo">
+                </a>
+                <div class="navbar-right flexbox-space-between">
+                    <div class="navbar-right flexbox-space-between">
+                        <div class="border-orange-hover">
+                            <a href="/clients" class="navbar-item ">
+                                <h3>
+                                    <!-- react-text: 10 -->
+                                    <!-- /react-text -->
+                                    <!-- react-text: 11 -->Clients
+                                    <!-- /react-text -->
+                                </h3>
+                            </a>
+                        </div>
+                        <div class=" border-orange-hover">
+                            <a href="/invoices" class="navbar-item">
+                                <h3>Factures</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navbar-item">
+                        <div class="dropdown">
+                            <img src="https://kitt.lewagon.com/placeholder/users/louisepicot" class="avatar dropdown-toggle" id="navbar-menu" data-toggle="dropdown"
+                                alt="avatar" aria-expanded="false">
+                            <ul class="dropdown-menu dropdown-menu-right navbar-dropdown-menu" x-placement="bottom-end" style="position: absolute; transform: translate3d(45px, 35px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                <li>
+                                    <a href="/param-account">Compte</a>
+                                </li>
+                                <li>
+                                    <a href="/param-invoice">Facturation</a>
+                                </li>
+                                <li>
+                                    <a>Déconnexion</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROGRESS_BAR -->
+            <!-- <div class="flexbox-space-around navbar-progress"> -->
+            <ul class="progess-bar">
+                <li class="active">
+                    <p class="text-uppercase">Preparer</p>
+                </li>
+                <li>
+                    <p class="text-uppercase">Visualiser</p>
+                </li>
+                <li>
+                    <p class="text-uppercase">Envoyer</p>
+                </li>
+            </ul>
+            <!-- </div> -->
+            <!-- LOADER -->
+            <div id="overlay-info">   
+                <div class="spinner" />
+            </div>   
+        </div>
+
+
+
+
+
+        <!-- LIST/TABLE -->
+        <div class="card-infos flexbox-space-between">
+            <div class="container-list">
+                <div class="flexbox-left title-list">
+                    <div class="logo-box">
+
+                    </div>
+                    <div class="societe">
+                        <h4 class="text-uppercase">societe</h4>
+                    </div>
+                    <div class="email">
+                        <h4 class="text-uppercase">Email</h4>
+                    </div>
+                    <div class="balance">
+                        <h4 class="text-uppercase">balance</h4>
+                    </div>
+                </div>
+
+                <div class="container-list-body">
+
+                    <div class="flexbox-left element-list">
+
+                        <div class="logo-box">
+                            <div class="logo">A</div>
+                        </div>
+                        <div class="societe">
+                            <p>client.nam</p>
+                        </div>
+                        <div class="email">
+                            <p>lient.emai</p>
+                        </div>
+                        <div class="balance big-nbr color-red ta-r">
+                            <p>10.000€</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flexbox-left element-list">
+
+                        <div class="logo-box">
+                            <div class="logo">A</div>
+                        </div>
+                        <div class="societe">
+                            <p>client.nam</p>
+                        </div>
+                        <div class="email">
+                            <p>lient.emaifergferngenrgjre</p>
+                        </div>
+                        <div class="balance big-nbr color-red ta-r">
+                            <p>10.000€</p>
+                        </div>
+                    </div>
+                    <div class="flexbox-left element-list">
+                        <div class="logo-box">
+                            <div class="logo">A</div>
+                        </div>
+                        <div class="societe">
+                            <p>client.nam</p>
+                        </div>
+                        <div class="email">
+                            <p>lient.emaifergferngenrgjre</p>
+                        </div>
+                        <div class="balance big-nbr color-red ta-r">
+                            <p>10.000€</p>
+                        </div>
+                    </div>
+                    <div class="flexbox-left element-list">
+
+                        <div class="logo-box">
+                            <div class="logo">A</div>
+                        </div>
+                        <div class="societe">
+                            <p>client.nam</p>
+                        </div>
+                        <div class="email">
+                            <p>lient.emaifergferngenrgjre</p>
+                        </div>
+                        <div class="balance big-nbr color-red ta-r">
+                            <p>10.000€</p>
+                        </div>
+                    </div>
+                    <div class="flexbox-left element-list">
+
+                        <div class="logo-box">
+                            <div class="logo">A</div>
+                        </div>
+                        <div class="societe">
+                            <p>client.nam</p>
+                        </div>
+                        <div class="email">
+                            <p>lient.emaifergferngenrgjre</p>
+                        </div>
+                        <div class="balance big-nbr color-red ta-r">
+                            <p>10.000€</p>
+                        </div>
+                    </div>
+                    <div class="flexbox-left element-list">
+                        <div class="logo-box">
+                            <div class="logo">A</div>
+                        </div>
+                        <div class="societe">
+                            <p>client.nam</p>
+                        </div>
+                        <div class="email">
+                            <p>lient.emai</p>
+                        </div>
+                        <div class="balance big-nbr color-red ta-r">
+                            <p>10.000€</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- CARD INFO CLient-->
+
+            <div class="cardinfobox">
+                <div class="card flexbox-column">
+
+                    <div class="avatar">
+                        <i class="fa animated  bounce">0</i>
+                    </div>
+                    <div class="titles">
+                        <h1>client.name</h1>
+                        <h2 class="text-uppercase">BE-0client.btw_nr</h2>
+                        <h2 class="location">client.firstName</h2>
+                    </div>
+                    <ul>
+
+                        <li>
+                            <i class="fa fa-globe"></i>
+                            <a class="nostyle" href=client.country_name>client.country_name</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope"></i>
+                            <p class="nostyle"> client.c_email</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-phone"></i>
+                            <p class="nostyle"> client.phone</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-map-pin"></i>
+                            <a class="nostyle">client.address client.city client.zip</a>
+                        </li>
+                    </ul>
+
+                    <div class="flexbox-space-between btn-box">
+
+                        <button type="button" class="btn-grey ">Supprimer</button>
+
+                        <button type="button" class="btn-blue ">Modifier</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <!-- <div class="progress-bar">
+        </div> -->
+
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        $(function () {
+            const inputSearch = document.querySelector('#search_param');
+            inputSearch.addEventListener('keydown', handlePopover);
+
+
+            function handlePopover() {
+                console.log(this.value.length)
+                // e.targetEvent.value ? 
+
+                // $('[data-toggle="popover"]').popover('hide')
+                // $('[data-toggle="popover"]').data('content', this.value.length)
+                $('[data-toggle="popover"]').attr('data-content', "{this.value.length} + blublub");
+                $('[data-toggle="popover"]').popover('show')
+            };
+
+
+        })
+
+
+        const logostep = document.querySelectorAll(".logo");
+        let numStep = 0;
+        logostep[0].addEventListener('click', function (numStep) {
+
+            // if showstep = 1 divnum=1,,,, 
+            //    console.log(logostep[])
+            const divStart = logostep[0];
+
+            const divEnd = logostep[1];
+
+            const x1 = divStart.offsetLeft;
+            const y1 = divStart.offsetTop;
+            const x2 = divEnd.offsetLeft;
+            const y2 = divEnd.offsetTop;
+            const svg = document.getElementById("svg");
+
+            return svg.insertAdjacentHTML('afterbegin', `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="black" className="line1"/>`);
+
+            numStep = + 1;
+
+        });
+
+
+
+        // $('.selectpicker').selectpicker({
+        //     size: 4
+        // });
+
+
+        // const checkbox =  Array.from(document.querySelectorAll(".btn-checkbox"));
+        // console.log(checkbox)
+        // checkbox.addEventListener('click', function (e) {
+        //     console.log("bhbhb", e);
+        //     this.setAttribute("multiple", "");
+        // });
+
+
+    </script>
+</body>
+
+</html>

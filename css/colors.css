@@ -1,0 +1,43 @@
+
+
+.deep-orange {
+    background-color: var(--deep-orange);
+        width: 80px;
+    height: 80px;
+}
+.light-orange {
+    background-color: var(--light-orange);
+        width: 80px;
+    height: 80px;
+}
+.deep-blue {
+    background-color: var(--deep-blue);
+        width: 80px;
+    height: 80px;
+}
+.light-blue {
+    background-color: var(--light-blue);
+        width: 80px;
+    height: 80px;
+}
+.deep-grey {
+    background-color: var(--deep-grey);
+        width: 80px;
+    height: 80px;
+}
+.light-grey {
+    background-color: var(--light-grey);
+        width: 80px;
+    height: 80px;
+}
+.very-light-grey {
+    background-color: var(--very-light-grey);
+        width: 80px;
+    height: 80px;
+}
+.very-very-light-grey {
+    background-color: var(--very-very-light-grey);
+        width: 80px;
+    height: 80px;
+}
+   

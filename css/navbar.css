@@ -1,0 +1,297 @@
+.navbar-blue {
+  width: 100%;
+  background: var(--deep-blue);
+  transition: all 0.3s ease;
+  height: 50px;
+  padding: 0px 50px;
+}
+
+/* Logo */
+.brand img {
+      height: 60px;
+      margin: 0px -16px;
+}
+
+/* User Avatar */
+.navbar-blue.avatar {
+      margin-left: 20px;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+/* Right section */
+.navbar-right {
+  height: 100%;
+}
+
+
+
+/* Basic navbar item */
+.navbar-item {
+  cursor: pointer;
+/*  padding: 0 30px;*/
+}
+
+/* Navbar link */
+.navbar-item > h3{
+ padding: 0 30px;
+}
+
+/* a.navbar-item {
+  color: var(--very-light-grey);
+} */
+/* a.navbar-item:hover {
+  color: white;
+  text-decoration: none;
+
+} */
+
+/* Dropdown menu */
+.navbar-dropdown-menu {
+  margin-top: 15px;
+  box-shadow: 1px 1px 4px #E6E6E6;
+  border-color: #E6E6E6;
+}
+.navbar-dropdown-menu li > a {
+  transition: color 0.3s ease;
+  /* font-weight: lighter !important; */
+  /* color: #999999 !important; */
+  /* font-size: 9px !important; */
+  line-height: 22px !important;
+  padding: 10px 20px;
+  /* text-transform: uppercase; */
+}
+.navbar-dropdown-menu li > a:hover {
+  background: transparent !important;
+  color: black !important;
+}
+.navbar-dropdown-menu:before {
+      right: 5%;
+  content: ' ';
+  height: 10px;
+  width: 10px;
+  position: absolute;
+
+  top: -6px;
+  background-color: white;
+  transform: rotate(45deg);
+  border-left: 1px solid #E6E6E6;
+  border-top: 1px solid #E6E6E6;
+}
+
+
+ .dropdown >.avatar {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+
+
+
+
+.border-orange-fix {
+   height: 100%;
+  display: flex;
+  align-items: center;
+  border-top: 3px solid var(--dark-blue) !important;
+  border-bottom: 3px solid var(--deep-orange) !important;
+   background-color: var(--dark-blue);
+  
+
+}
+
+.border-orange-hover {
+  /* color: var(--very-light-grey); */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-top: 3px solid var(--deep-blue) !important;
+  border-bottom: 3px solid var(--deep-blue);
+
+}
+
+.border-orange-hover:hover {
+  border-top: 3px solid var(--dark-blue) !important;
+  border-bottom: 3px solid var(--deep-orange);
+      background-color: var(--dark-blue);
+
+}
+
+.border-orange-hover:hover h3{
+    color: white !important;
+}
+
+.border-orange-hover h3{
+    color: var(--very-light-grey) !important;
+}
+.border-orange-fix h3{
+    color: var(--very-light-grey) !important;
+}
+/*
+/* .border-orange:hover> a {
+  color:  var(--deep-orange) !important;
+
+} */
+
+
+/* NAVBAR ORANGE */
+
+
+.bbgrey {
+    border-bottom: 1px solid #ccc;
+    padding: 0px 50px;
+    width: 500px;
+}
+
+/* .bbgrey > * {
+ flex-basis: calc( - 15px);
+} */
+
+
+.bborangefix > p {
+  color: var(--deep-orange) !important;
+}
+
+
+.bbgrey a h3 {
+  padding-bottom: 7px;
+}
+
+:focus a h3 {
+  text-decoration: none;
+  border-bottom: 1px solid orange;
+  color: orange;
+}
+
+
+
+.bborangefix{
+  text-decoration: none;
+  border-bottom: 2px solid orange !important;
+   margin-bottom: -2px;
+
+}
+
+.bborangefix a h3{
+    text-transform: none;
+    color: orange !important;
+    /* letter-spacing: 2px; */
+  }
+
+
+
+/* NAVBARSEARH */
+.navsearch{
+   height: 10vh;
+       padding: 0px 50px;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.search{
+     width: 246px !important;
+}
+
+.filter-btn {
+    
+    height: 100%;
+    width: 45px;
+    z-index: 2;
+    margin-left: -1px;
+    border-radius: .25rem;
+
+        border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    color: var(--deep-grey);
+    background-color: #ebeef1de;
+  border: 1px solid #E6E6E6;
+   
+}
+
+
+/* NAVBAR PROGRESS */
+
+.navbar-progress {
+      z-index: 6;
+  padding: 10px 200px;
+  background-color: white;
+  /* position: fixed; */
+  width: 100%;
+       top: 50px;
+  border-bottom: 1px solid var(--light-grey);
+}
+
+/* .navbar-progress p {
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.navbar-progress > .flexbox-column > .logo  {
+  margin-top: 5px;
+width: 25px;
+height: 25px;
+} */
+
+
+.progess-bar {
+  width: 100%;
+   counter-reset: Etape;
+}
+
+.progess-bar > p {
+ font-size: 40px;
+}
+
+.progess-bar li {
+	list-style-type: none;
+	float: left;
+	position: relative;
+	text-align : center;
+	width: 33.33%;
+}
+
+.progess-bar li:before {
+    content : counter(Etape);
+    counter-increment: Etape;
+    width: 30px;
+    height: 30px;
+    line-height: 27px;
+
+    border: 2px solid var(--light-grey);
+    display: block;
+        margin: 0 auto 5px auto;
+    border-radius: 50%;
+    text-align: center;
+    background-color: white;
+    
+}
+
+.progess-bar li:after {
+	content : '';
+	width: 100%;
+	position: absolute;
+	height: 2px;
+	background-color: var(--light-grey);
+	top :15px;
+	left : -50%;
+	z-index: -1;
+}
+
+.progess-bar li:first-child:after {
+   content : none;
+}
+
+.progess-bar li.active {
+	color : var(--deep-blue);
+}
+
+
+.progess-bar li.active:before {
+	border: 2px solid var(--deep-orange);
+}
+
+.progess-bar li.active + li:after {
+	background-color: var(--deep-orange);
+}
